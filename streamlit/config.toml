@@ -1,9 +1,0 @@
-# Este arquivo força o ambiente do Streamlit a usar uma versão
-# compatível com bibliotecas de ML (Python 3.10 ou 3.11)
-
-[general]
-# O PyTorch e a Ultralytics têm melhor suporte para Python 3.11 (ou 3.10).
-# Vamos forçar o uso do Python 3.11.
-# Se 3.11 falhar, tente 3.10.
-
-python = 3.11
