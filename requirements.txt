@@ -1,6 +1,8 @@
 streamlit
 pandas
 numpy
+# Versão headless (sem GUI) para servidor
 opencv-python-headless
+# Versões puras para que o Docker/pip gerencie a compatibilidade no Python 3.10
 torch
 ultralytics
