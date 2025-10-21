@@ -3,6 +3,8 @@
 Este repositório documenta um estudo comparativo aprofundado entre três arquiteturas de Object Detection da família YOLO: **YOLOv8m**, **YOLOv9c** e **YOLOv10m**. O foco é na triagem de achados sugestivos de Pneumonia em radiografias torácicas.
 
 O objetivo principal foi analisar a evolução em termos de **eficiência arquitetônica** e **precisão na detecção**.
+<img width="1760" height="432" alt="image" src="https://github.com/user-attachments/assets/e56981ed-c00f-4002-87d3-9ab536b5abbf" />
+
 
 ### Metodologia de Seleção de Modelos (YOLOv8m vs. v9c vs. v10m)
 
@@ -28,9 +30,12 @@ O desempenho foi medido pela métrica rigorosa **mAP@.5:.95** (Precisão Média 
 | YOLOv9c   | 25.3           | 102.3  | 0.787      | 8.0             | **Maior Latência**: Mais lento, mas com leve ganho de precisão.                     |
 | YOLOv10m  | 15.3           | 58.9   | 0.794      | 5.9             | **Vencedor da Precisão/Eficiência**: Maior acurácia com 40% menos parâmetros.       |
 
+<img width="1772" height="754" alt="image" src="https://github.com/user-attachments/assets/c75f6e3a-7f6c-4cf8-80ff-fb5a4f07af79" />
+
 ## Como Rodar a Aplicação Localmente
 
 A aplicação interativa **Streamlit** (`index.py`) permite testar os modelos com suas próprias imagens e ver a comparação lado a lado.
+<img width="1502" height="356" alt="image" src="https://github.com/user-attachments/assets/849580d4-4323-480a-99d6-5c956ed51032" />
 
 ### 1. Pré-requisitos
 
